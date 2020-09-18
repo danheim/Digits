@@ -9,6 +9,7 @@
     margin-top: 144px;
 
     &--head {
+      font-family: "Halyard Display", sans-serif;
       font-size: 56px;
       height: 118px;
       line-height: 105%;
@@ -68,7 +69,7 @@
 
   &__img {
     margin-top: 130px;
-    
+
     &--size {
       width: 950px;
     }
@@ -78,7 +79,7 @@
 @media screen and (max-width: $small-screen-breakpoint) {
   .home {
     height: 100%;
-    
+
     &__title {
       margin-top: 60px;
 
@@ -91,7 +92,7 @@
     &__button {
       display: flex;
       flex-direction: column;
-      
+
       &--buy {
         margin: 10px 0;
       }
@@ -99,7 +100,7 @@
 
     &__img {
       margin-top: 50px;
-      
+
       &--size {
         width: 100%;
       }
